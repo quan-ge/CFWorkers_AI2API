@@ -7,19 +7,23 @@
 // 默认模型映射表（左边是客户端请求的模型名，右边是 Cloudflare 上对应的真实模型）
 const DEFAULT_MODEL_MAP = {
 	// 对话 / 文本生成模型
-	'glm-5.2': '@cf/zai-org/glm-5.2',
 	'glm-4.7-flash': '@cf/zai-org/glm-4.7-flash',
-	'kimi-k2.7-code': '@cf/moonshotai/kimi-k2.7-code',
-	'kimi-k2.6': '@cf/moonshotai/kimi-k2.6', // 就是一坨屎，别吃
 	'gemma-4-26b-a4b-it': '@cf/google/gemma-4-26b-a4b-it',
 	'nemotron-3-120b-a12b': '@cf/nvidia/nemotron-3-120b-a12b',
 	'gpt-oss-20b': '@cf/openai/gpt-oss-20b',
 	'gpt-oss-120b': '@cf/openai/gpt-oss-120b',
+	'gemma-sea-lion-v4-27b-it': '@cf/aisingapore/gemma-sea-lion-v4-27b-it',
+	'qwen3-30b-a3b-fp8': '@cf/qwen/qwen3-30b-a3b-fp8',
+	'qwq-32b': '@cf/qwen/qwq-32b',
+	'qwen2.5-coder-32b-instruct': '@cf/qwen/qwen2.5-coder-32b-instruct',
+	'deepseek-r1-distill-qwen-32b': '@cf/deepseek-ai/deepseek-r1-distill-qwen-32b',
+	'llama-3.3-70b-instruct-fp8-fast': '@cf/meta/llama-3.3-70b-instruct-fp8-fast',
 
 	// 向量嵌入（Embeddings）模型
 	'embeddinggemma-300m': '@cf/google/embeddinggemma-300m',
 	'qwen3-embedding-0.6b': '@cf/qwen/qwen3-embedding-0.6b',
-	'bge-m3': '@cf/baai/bge-m3'
+	'bge-m3': '@cf/baai/bge-m3',
+	'plamo-embedding-1b': '@cf/pfnet/plamo-embedding-1b',
 };
 
 export default {
