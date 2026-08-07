@@ -4,7 +4,7 @@ compatibility_date = "2026-06-30"
 
 [[kv_namespaces]]
 binding = "KV"
-id = "KV_AI2API"
+id = "2422102dccd7458eb57546e36e7cebc9"
 
 [vars]
 # ADMIN_PASSWORD = "120322lsh"
